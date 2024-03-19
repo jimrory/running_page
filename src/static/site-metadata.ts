@@ -10,18 +10,18 @@ interface ISiteMetadataResult {
 }
 
 const data: ISiteMetadataResult = {
-  siteTitle: 'Running Page',
-  siteUrl: 'https://yihong.run',
-  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
-  description: 'Personal site and blog',
+  siteTitle: "Jim's Running Journey",
+  siteUrl: 'https://running.jimluo.com',
+  logo: 'https://github.com/jimrory/running_page/blob/master/running.jpg?raw=true',
+  description: "Jim's Running Journey",
   navLinks: [
     {
-      name: 'Blog',
-      url: 'https://github.com/yihong0618/gitblog',
+      name: 'ins',
+      url: 'https://www.instagram.com/jimrory',
     },
     {
-      name: 'About',
-      url: 'https://github.com/yihong0618/running_page/blob/master/README-CN.md',
+      name: 'about',
+      url: 'https://jimluo.com',
     },
   ],
 };

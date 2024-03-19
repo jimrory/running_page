@@ -12,7 +12,7 @@ interface ISiteMetadataResult {
 const data: ISiteMetadataResult = {
   siteTitle: "Jim's Running Journey",
   siteUrl: 'https://running.jimluo.com',
-  logo: 'https://github.com/jimrory/running_page/blob/master/running.jpg?raw=true',
+  logo: 'https://running.jimluo.com/images/logo.png',
   description: "Jim's Running Journey",
   navLinks: [
     {

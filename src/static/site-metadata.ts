@@ -10,7 +10,7 @@ interface ISiteMetadataResult {
 }
 
 const data: ISiteMetadataResult = {
-  siteTitle: "Jim's Running Journey",
+  siteTitle: "jim's running journey",
   siteUrl: 'https://running.jimluo.com',
   logo: 'https://running.jimluo.com/images/logo.png',
   description: "Jim's Running Journey",

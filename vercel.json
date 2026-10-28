@@ -3,5 +3,14 @@
     "deploymentEnabled": {
       "gh-pages": false
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ],
+  "framework": "vite",
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "dist"
 }

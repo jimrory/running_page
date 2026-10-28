@@ -9,12 +9,21 @@ interface ISiteMetadataResult {
   }[];
 }
 
+const getBasePath = () => {
+  const baseUrl = import.meta.env.BASE_URL;
+  return baseUrl === '/' ? '' : baseUrl;
+};
+
 const data: ISiteMetadataResult = {
   siteTitle: "jim's running journey",
   siteUrl: 'https://running.jimluo.com',
   logo: 'https://running.jimluo.com/images/logo.png',
   description: "jim's running journey",
   navLinks: [
+    {
+      name: 'Summary',
+      url: `${getBasePath()}/summary`,
+    },
     {
       name: 'ins',
       url: 'https://www.instagram.com/jimrory',

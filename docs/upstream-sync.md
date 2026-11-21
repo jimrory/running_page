@@ -3,7 +3,7 @@
 Tracks synchronization from upstream [`yihong0618/running_page`](https://github.com/yihong0618/running_page) into `jimrory/running_page`.
 
 - **Current upstream baseline**: `1730095` (2026-11-19)
-- **Sync procedure & safety rules**: see `.agents/skills/upstream-sync/SKILL.md` and `docs/upgrade-2026-10.md`.
+- **Safety rules & baseline reference**: see `docs/upgrade-2026-10.md`.
 
 ## Sync History
 
